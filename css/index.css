@@ -1,3 +1,11 @@
 .prosperos {
   background-image: url("../images/Application\ bg.avif");
 }
+.app-btn {
+  background-color: rgb(155, 116, 99);
+  border-color: rgb(155, 116, 99);
+  border-radius: 0%;
+  height: 35px;
+  width: 115px;
+  
+}
