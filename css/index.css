@@ -5,7 +5,11 @@
   background-color: rgb(155, 116, 99);
   border-color: rgb(155, 116, 99);
   border-radius: 0%;
-  height: 35px;
-  width: 115px;
-  
+  height: 55px;
+  width: 145px;
+  color: rgb(53, 38, 38);
+}
+.app-btn:hover {
+  background-color: aliceblue;
+  color: rgb(155, 116, 99);
 }
