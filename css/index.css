@@ -16,3 +16,11 @@
 .logo{
   align-items: center;
 }
+.coffe-city{
+  background-image: url("../images/home-1-s-slider-1.jpg");
+  height: 100%;
+  width: 98vh;
+}
+.paper-price{
+  color: rgb(255, 234, 177);
+}
