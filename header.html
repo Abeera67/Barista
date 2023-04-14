@@ -5,37 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./javascript/header.js">
 
 </head>
 <body>
   <header>
-    <nav class=" my-nav navbar navbar-light navbar-expand-lg ">
-      <div class="container">
-
-
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Disabled</a>
-          </li>
-        </ul>
+    <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand height-98vh" href="./images/logo-1.png">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reservation</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us </a></li>
+                <li><a class="dropdown-item" href="#">What we offer</a></li>
+                <li><a class="dropdown-item" href="#">Meet our  Team</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto my-2">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-  </div>
+    </nav>
     </nav>
 
     <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel" data-ride="carousel">
@@ -45,13 +57,13 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active" style="background-image: url('./images/1st\ imges\ of\ header.jpg')">
+        <div class="carousel-item active" style="background-image: url('./images/header\ 3.jpg')">
 
         </div>
-          <div class="carousel-item " style="background-image: url('./images/2nd\ image\ of\ header.jpg')">
+          <div class="carousel-item " style="background-image: url('./images/header-3.webp')">
 
         </div>
-        <div class="carousel-item " style="background-image: url('./images/header-3.webp')">
+        <div class="carousel-item " style="background-image: url('./images/1st\ imges\ of\ header.jpg')">
 
         </div>
       </div>
@@ -69,4 +81,5 @@
   </header>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </html>
