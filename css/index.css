@@ -21,3 +21,20 @@
   height: 100%;
   width: 98vh;
 }
+.my-nav{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  }
+  
+  .carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+class="carousel-item active" style="background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1111/Coffee-beans-close-up_1920x1080.jpg')"
+class="carousel-item " style="background-image: url('https://wallpaperaccess.com/full/374012.jpg')">
+class="carousel-item " style="background-image: url('https://www.wallpapers4u.org/wp-content/uploads/coffee_cup_cookies_chocolate_tile_grains_drinkm_44573_1920x1080.jpg')"
